@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family:Poppins,sans-serif;font-weight:700;
+}
+
+.main-section{
+    height: 60vh;
+    background-image:linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%), url(./images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px 50px;
+}
+.login{
+    background-color: transparent;
+    border:none;
+    color:white;
+    margin-right: 20px;
+}
+.signup{
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    padding:10px;
+    /* margin-right: 40px; */
+}
+.brand-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color:#EB2929;
+    margin-top: 10px;
+}
+
+.main-text{
+    text-align: center;
+    color:white;
+    font-size: 27px;
+    font-weight: bold;
+    margin:20px 0px;
+}
+.location-search{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+.location{
+    padding:8px;
+    margin-right: 20px;
+}
+.restaurants-list{
+    padding:8px;
+    width: 25vw;
+    margin-left: 2px;
+}
+.below-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.food-items{
+    display: flex;
+    width: 25vw;
+    /* height: 21vh; */
+    justify-content: space-evenly;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin: 5px;
+}
+.food-item-img{
+    height: 120px;
+    width: 120px;
+}
+.food-item-text{
+    padding: 10px 20px;
+} 
+.food-item-title{
+    font-size: 18px;
+    font-weight: bold;
+    color:#192F60;
+    padding: 5px 0px;
+}
+.food-item-desc{
+    color: #8C96AB;
+    font-size: 14px;
+}
+.quick-search{
+    font-size: 30px;
+    color: #192F60;
+    margin-top: 25px;
+    margin-left: 137px;
+}
+.qs-text{
+    font-size: 18px;
+    color:#8C96AB;
+    margin-left: 137px;
+    margin-bottom: 25px;
+}
